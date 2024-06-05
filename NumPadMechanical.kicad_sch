@@ -7341,7 +7341,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "130R"
 			(at 139.6492 15.24 90)
 			(effects
 				(font
