@@ -550,6 +550,18 @@
           "label": "Descripción",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Indicator",
+          "name": "Indicator",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -601,6 +613,10 @@
     [
       "ac8bb69a-1f0c-4a45-9dd5-31d7563e18f7",
       "Raíz"
+    ],
+    [
+      "b542e9c4-cce5-4074-8531-a3cf564f59e5",
+      "Switch matrix"
     ]
   ],
   "text_variables": {}
