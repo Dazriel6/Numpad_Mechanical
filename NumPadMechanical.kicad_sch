@@ -4047,6 +4047,12 @@
 		(uuid "5153dd1f-17f9-4a94-8ad3-b07c87abdfc7")
 	)
 	(junction
+		(at 121.92 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5710d0c3-1a47-43c1-ac2c-c28eeff84dbc")
+	)
+	(junction
 		(at 45.72 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4113,12 +4119,6 @@
 		(uuid "9ada8e88-de42-4fed-8b61-ab6e5a1d9c6f")
 	)
 	(junction
-		(at 121.92 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b399cf50-b4a6-4e15-a728-6a38a609869f")
-	)
-	(junction
 		(at 237.49 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4129,12 +4129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b9f466-0013-409e-8100-9bef49b4ccca")
-	)
-	(junction
-		(at 114.3 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c169bd66-1085-4e87-95b0-3f41c5d757dc")
 	)
 	(junction
 		(at 132.08 20.32)
@@ -4173,10 +4167,84 @@
 		(uuid "f5912ebc-be85-4014-bfd8-cf9338e55767")
 	)
 	(junction
+		(at 114.3 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5bc5371-a978-4936-927f-62e88a2e9865")
+	)
+	(junction
 		(at 76.2 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9494c42-1787-4ec9-a121-e0a229d4ab00")
+	)
+	(no_connect
+		(at 91.44 67.31)
+		(uuid "01905a2a-578e-424f-b873-83e1de93c4a7")
+	)
+	(no_connect
+		(at 124.46 72.39)
+		(uuid "027b18e6-1b2d-4b32-8d91-15cadecd6055")
+	)
+	(no_connect
+		(at 91.44 92.71)
+		(uuid "078ce6e0-28b3-473b-95e6-14a3bea7837b")
+	)
+	(no_connect
+		(at 91.44 95.25)
+		(uuid "12294abf-82f1-427b-83b8-58da6155169b")
+	)
+	(no_connect
+		(at 91.44 85.09)
+		(uuid "2543fc26-1c5c-4623-a295-4a531fc03fcd")
+	)
+	(no_connect
+		(at 91.44 113.03)
+		(uuid "2a71ecb8-6bf0-416e-b1b2-b4cc4774781a")
+	)
+	(no_connect
+		(at 91.44 90.17)
+		(uuid "3ea11bab-3b1e-4a84-9adc-78021786ed90")
+	)
+	(no_connect
+		(at 91.44 64.77)
+		(uuid "52e937d2-f9e4-4512-b006-25d9ef89f84f")
+	)
+	(no_connect
+		(at 124.46 85.09)
+		(uuid "659667f7-01a6-44f5-9406-1af7a1d9ee99")
+	)
+	(no_connect
+		(at 91.44 69.85)
+		(uuid "6ee79157-4d3b-43d8-8feb-9f7e5282d3d2")
+	)
+	(no_connect
+		(at 91.44 100.33)
+		(uuid "911559cd-6a8f-44af-82a2-28a30fbbb97a")
+	)
+	(no_connect
+		(at 91.44 87.63)
+		(uuid "919fb3f7-8470-42ef-9989-c6f880325643")
+	)
+	(no_connect
+		(at 91.44 105.41)
+		(uuid "adb547f1-4209-463d-8868-dd4367e63ebd")
+	)
+	(no_connect
+		(at 91.44 97.79)
+		(uuid "b241cb42-f404-4692-a4bd-d83e50db002b")
+	)
+	(no_connect
+		(at 91.44 107.95)
+		(uuid "b4649a92-f2e5-48f3-b37c-f372e2567965")
+	)
+	(no_connect
+		(at 91.44 102.87)
+		(uuid "f03c579a-cd86-4dc9-877d-3ea1f76d25a8")
+	)
+	(no_connect
+		(at 91.44 110.49)
+		(uuid "fe86b98f-ed00-4007-86ec-40f7b4a7bbfd")
 	)
 	(wire
 		(pts
@@ -4380,26 +4448,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 19.05) (xy 114.3 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c607bfb-8d2e-492d-a0f2-d86e909bd40a")
-	)
-	(wire
-		(pts
-			(xy 114.3 20.32) (xy 121.92 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9573c6-9227-4605-8c58-af41cba67a31")
-	)
-	(wire
-		(pts
 			(xy 87.63 20.32) (xy 87.63 22.86)
 		)
 		(stroke
@@ -4477,6 +4525,16 @@
 			(type default)
 		)
 		(uuid "28272254-1922-4c9d-994b-14db9e34f856")
+	)
+	(wire
+		(pts
+			(xy 114.3 20.32) (xy 121.92 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286d7ae4-4c98-4c52-b8f5-eb91491f7cbf")
 	)
 	(wire
 		(pts
@@ -4790,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 20.32) (xy 114.3 41.91)
+			(xy 114.3 19.05) (xy 114.3 20.32)
 		)
 		(stroke
 			(width 0)
@@ -4807,6 +4865,26 @@
 			(type default)
 		)
 		(uuid "60423cfe-339a-4dcb-b8eb-b492d17d49d3")
+	)
+	(wire
+		(pts
+			(xy 121.92 20.32) (xy 132.08 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b6082d-8f16-4502-8b08-01d8ae2037e8")
+	)
+	(wire
+		(pts
+			(xy 114.3 20.32) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624f985c-ce3a-4fe4-ac49-6a738e9c5108")
 	)
 	(wire
 		(pts
@@ -5247,16 +5325,6 @@
 			(type default)
 		)
 		(uuid "bbe8a6e3-4212-420c-b9ca-f802bc54e3fb")
-	)
-	(wire
-		(pts
-			(xy 132.08 20.32) (xy 121.92 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdcca8e3-8a98-4b06-92bd-b35e3edff9cf")
 	)
 	(wire
 		(pts
@@ -6473,6 +6541,72 @@
 			(project "NumPadMechanical"
 				(path "/ac8bb69a-1f0c-4a45-9dd5-31d7563e18f7"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 114.3 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07ee519d-d9e8-4961-b6b7-1f74043d25df")
+		(property "Reference" "#PWR08"
+			(at 114.3 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 114.3 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 114.3 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23c5a85-508e-47b2-8493-fee3610c9298")
+		)
+		(instances
+			(project "NumPadMechanical"
+				(path "/ac8bb69a-1f0c-4a45-9dd5-31d7563e18f7"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7804,72 +7938,6 @@
 			(project "NumPadMechanical"
 				(path "/ac8bb69a-1f0c-4a45-9dd5-31d7563e18f7"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 114.3 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f04c19b-8c25-4601-9654-8cd595f152c6")
-		(property "Reference" "#PWR08"
-			(at 114.3 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 114.3 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 114.3 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f34af74-0bf0-459a-b725-b67adf4b6dd4")
-		)
-		(instances
-			(project "NumPadMechanical"
-				(path "/ac8bb69a-1f0c-4a45-9dd5-31d7563e18f7"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
